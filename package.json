@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "parcel": "^2.6.0",
+    "swiper": "^8.2.4"
+  }
+}
