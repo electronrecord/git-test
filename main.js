@@ -1,14 +1,7 @@
-import Swiper from 'swiper';
-// import Swiper styles
-import './node_modules/swiper/swiper.min.css';
-
-const configSwiper = {
-  loop: true,
-  slidesPerView: 3,
-  spaceBetween: 30,
-  centeredSlides: true,
-  speed: 1400,
-  autoplay: true,
+function handleSubmit (ev) {
+  ev.preventDefault()
+  const email = document.getElementById('email')
+  const password = document.getElementById('password')
+  console.log(email.value)
+  console.log(password.value)
 }
-
-const swiper = new Swiper('.swiper', configSwiper);

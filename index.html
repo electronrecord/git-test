@@ -7,32 +7,32 @@
 </head>
 <body>
 
-  <h1>Iulian</h1>
+  <!-- Create a simple login form with a field for email and password and login button. Use the js to get the values when clicked on the login button, and display the values in the console, in inspector. -->
 
-  <h2>Subtitle</h2>
+  <main>
+    <h1>Login form</h1>
 
-  <div class="swiper">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide">
-        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg" alt="">
-      </div>
-      <!-- If we need pagination -->
-      <div class="swiper-pagination"></div>
+    <form onsubmit="handleSubmit(event)">
+      <label for="email">
+        email: <br>
+        <input id="email"
+               type="text"
+               placeholder="email">
+      </label>
+      <br>
+      <label for="password">
+        password: <br>
+        <input id="password"
+               type="password"
+               placeholder="password">
+      </label>
+      <br>
+      <button>LOGIN</button>
+    </form>
 
-      <!-- If we need navigation buttons -->
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+  </main>
 
-      <!-- If we need scrollbar -->
-      <div class="swiper-scrollbar"></div>
-    </div>
+  <script src="main.js"></script>
 
-    <script type="module" src="main.js"></script>
-  </div>
   </body>
 </html>
