@@ -9,7 +9,8 @@ function handleContentChange () {
   p.style.color = 'green'
   const span = document.createElement('h2')
   span.innerText = 'Now the text is green'
-  p.appendChild(span)
+  const main = document.querySelector('main')
+  main.appendChild(span)
 }
 
 
